@@ -18,8 +18,24 @@ public class interactScript : MonoBehaviour
             {
                 if(hit.collider.CompareTag("door"))
                 {
-                    //DoorScript doorScript=hit.collider.transform.parent.GetComponent<doorScript>();
-                    hit.collider.transform.parent.GetComponent<doorScript>().ChangeDoorState();
+                    if(hit.collider.transform.parent.GetComponent<doorScript>() == null)
+                    {
+                        return;
+                    }
+
+                    if(Inventory.keys[hit.collider.transform.parent.GetComponent<doorScript>().index] == true)
+                    {
+                        hit.collider.transform.parent.GetComponent<doorScript>().ChangeDoorState();
+                    }
+                    
+                }
+                else
+                {
+                    if(hit.collider.CompareTag("key"))
+                    {
+                        Inventory.keys[hit.collider.GetComponent<Key>().index]= true;
+                        Destroy(hit.collider.gameObject);
+                    }
                 }
             }
         }

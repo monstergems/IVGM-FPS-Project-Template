@@ -80,7 +80,12 @@ PrefabInstance:
     - target: {fileID: 2457273537969178838, guid: 3807585055c0ea64c8832889ea0a3a70,
         type: 3}
       propertyPath: m_Name
-      value: Door_key
+      value: Door_key Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457273537969178838, guid: 3807585055c0ea64c8832889ea0a3a70,
+        type: 3}
+      propertyPath: m_TagString
+      value: key
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3807585055c0ea64c8832889ea0a3a70, type: 3}
