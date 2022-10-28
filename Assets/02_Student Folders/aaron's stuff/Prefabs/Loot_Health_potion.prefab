@@ -20,18 +20,23 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 2620131183356007196, guid: d40ae884302b6684a8b3b6f3d55a71ba,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620131183356007196, guid: d40ae884302b6684a8b3b6f3d55a71ba,
+        type: 3}
       propertyPath: m_Center.y
       value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2620131183356007197, guid: d40ae884302b6684a8b3b6f3d55a71ba,
         type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2620131183356007197, guid: d40ae884302b6684a8b3b6f3d55a71ba,
         type: 3}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2620131183356007199, guid: d40ae884302b6684a8b3b6f3d55a71ba,
         type: 3}

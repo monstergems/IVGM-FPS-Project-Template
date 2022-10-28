@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/02_Student Folders/aaron's stuff/AaronBos_Scene.unity
     guid: 854bbbb5956b2254bba5220a342e4fe5
-  - enabled: 1
+  - enabled: 0
     path: Assets/02_Student Folders/aaron's stuff/FirstnameLastname_Scene.unity
     guid: fc8e325d4a516d940b7de462116bec76
   m_configObjects: {}
