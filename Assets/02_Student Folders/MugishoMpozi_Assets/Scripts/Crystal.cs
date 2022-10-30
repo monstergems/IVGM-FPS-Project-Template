@@ -9,12 +9,11 @@ public class Crystal : MonoBehaviour
     public GenerateEnemies enemyGenerator;
     public GameObject crystal;
     public GameObject crystalLight;
+
+    public GameObject entrance1Lock;
+    public GameObject entrance2Lock;
     public int limit;
     public int killCount;
-    public int minX;
-    public int maxX;
-    public int minZ;
-    public int maxZ;
     public bool limitReached = false;
     
     // // remember that static attributes are shared for all object instations of a class
@@ -48,9 +47,12 @@ public class Crystal : MonoBehaviour
             limitReached = true;
 
             // open all entries
-            
-            Destroy(GameObject.Find("entrance_1_lock"));
-            Destroy(GameObject.Find("entrance_2_lock"));
+            if (entrance1Lock != null) {
+                Destroy(entrance1Lock);
+            }
+            if (entrance2Lock != null){
+                Destroy(entrance2Lock);
+            }
         } else {
             killCount = enemyGenerator.killedEnemies;
             crystalLight.GetComponent<Light>().intensity = 2 * killCount;

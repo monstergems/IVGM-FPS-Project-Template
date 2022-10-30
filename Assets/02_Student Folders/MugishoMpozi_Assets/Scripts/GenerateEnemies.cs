@@ -9,6 +9,11 @@ public class GenerateEnemies : MonoBehaviour
     public GameObject enemy;
     public int xPos;
     public int yPos;
+    public int minX;
+    public int maxX;
+    public int minZ;
+    public int maxZ;
+    public int height;
     public int maxNumEnemies;
     public int killedEnemies;
     public float spawnIntervalShort = 2f;
@@ -26,12 +31,12 @@ public class GenerateEnemies : MonoBehaviour
     }
 
     IEnumerator spawnEnemy(float spawnIntervalShort) {
-        if ((playerPos.x > -17 && playerPos.x < 21) &&
-        (playerPos.z > -5 && playerPos.z < 22)) {
+        if ((playerPos.x > minX && playerPos.x < maxX) &&
+        (playerPos.z > minZ && playerPos.z < maxZ)) {
             if (spawnedEnemies.Count < maxNumEnemies && !crystal.limitReached) {
-                xPos = Random.Range(-17, 21);
-                yPos = Random.Range(-5, 22);
-                spawnedEnemies.Add(Instantiate(enemy, new Vector3(xPos, 1, yPos), Quaternion.identity));
+                xPos = Random.Range(minX, maxX);
+                yPos = Random.Range(minZ, maxZ);
+                spawnedEnemies.Add(Instantiate(enemy, new Vector3(xPos, height, yPos), Quaternion.identity));
             }
         }
 
