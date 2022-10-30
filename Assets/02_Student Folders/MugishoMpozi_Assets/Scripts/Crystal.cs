@@ -15,6 +15,7 @@ public class Crystal : MonoBehaviour
     public int maxX;
     public int minZ;
     public int maxZ;
+    public bool limitReached = false;
     
     // // remember that static attributes are shared for all object instations of a class
     // private static int killCount;
@@ -44,6 +45,12 @@ public class Crystal : MonoBehaviour
 
             // Call SetColor using the shader property name "_Color" and setting the color to red
             crystalRenderer.material.SetColor("_Color", Color.green);
+            limitReached = true;
+
+            // open all entries
+            
+            Destroy(GameObject.Find("entrance_1_lock"));
+            Destroy(GameObject.Find("entrance_2_lock"));
         } else {
             killCount = enemyGenerator.killedEnemies;
             crystalLight.GetComponent<Light>().intensity = 2 * killCount;

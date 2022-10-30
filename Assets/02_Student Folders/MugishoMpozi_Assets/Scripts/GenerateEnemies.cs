@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GenerateEnemies : MonoBehaviour
 {
+    public Crystal crystal;
 
     public GameObject enemy;
     public int xPos;
@@ -27,7 +28,7 @@ public class GenerateEnemies : MonoBehaviour
     IEnumerator spawnEnemy(float spawnIntervalShort) {
         if ((playerPos.x > -17 && playerPos.x < 21) &&
         (playerPos.z > -5 && playerPos.z < 22)) {
-            if (spawnedEnemies.Count < maxNumEnemies) {
+            if (spawnedEnemies.Count < maxNumEnemies && !crystal.limitReached) {
                 xPos = Random.Range(-17, 21);
                 yPos = Random.Range(-5, 22);
                 spawnedEnemies.Add(Instantiate(enemy, new Vector3(xPos, 1, yPos), Quaternion.identity));
