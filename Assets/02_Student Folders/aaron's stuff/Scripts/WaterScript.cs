@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class waterScript : MonoBehaviour
+public class WaterScript : MonoBehaviour
 {
     public Transform target_low;
     public Transform target_high;

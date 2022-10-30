@@ -18,13 +18,13 @@ public class interactScript_water : MonoBehaviour
             {
                 if(hit.collider.CompareTag("lever"))
                 {
-                    if(waterScript.rise_status[0]== true)
+                    if(WaterScript.rise_status[0]== true)
                     {
-                        waterScript.rise_status[0]= false;
+                        WaterScript.rise_status[0]= false;
                     }
                     else
                     {
-                        waterScript.rise_status[0]= true;
+                        WaterScript.rise_status[0]= true;
                     }
                 }
             }
