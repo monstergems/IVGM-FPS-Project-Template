@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class interactScript_water : MonoBehaviour
+public class InteractScriptWater : MonoBehaviour
 {
     public float interactDistance=5f;
+    GameObject obj;
 
 
 
@@ -21,13 +22,16 @@ public class interactScript_water : MonoBehaviour
                     if(WaterScript.rise_status[0]== true)
                     {
                         WaterScript.rise_status[0]= false;
+                        //obj.GetComponent<WaterScript>().rise_status[0]= false;
                     }
                     else
                     {
                         WaterScript.rise_status[0]= true;
+                        //obj.GetComponent<WaterScript>().rise_status[0]= true;
                     }
                 }
             }
         }
     }
 }
+
