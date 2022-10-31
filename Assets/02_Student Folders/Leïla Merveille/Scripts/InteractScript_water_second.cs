@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractScript_water : MonoBehaviour
+public class InteractScript_water_second : MonoBehaviour
 {
+    public InteractScript_water interactScript_water;
     public GameObject water;
     public GameObject lever;
-    public bool rising = false;
     public float interactDistance=5f;
 
     //water
@@ -15,6 +15,7 @@ public class InteractScript_water : MonoBehaviour
     //
     private float variableToChange;
     private float changePerSecond;
+    private bool rising = false;
     
     //lever
     private float leverOpenAngle=126f;
@@ -29,15 +30,15 @@ public class InteractScript_water : MonoBehaviour
         //      - increase the water level
         variableToChange += changePerSecond * Time.deltaTime;
 
-        if (rising == true) 
+        if ((rising == true) && interactScript_water.rising) 
         {
+            Debug.Log(riseUntil);
             // if water level not reached increase water level
             
-            if (water.transform.position.y >= riseUntil) {
+            if (water.transform.position.y == riseUntil) {
                 rising = false;
             }
-            if (water.transform.position.y <= riseUntil) {
-                Debug.Log(riseUntil);
+            if (water.transform.position.y < riseUntil) {
                 Vector3 waterLevel = new Vector3(0f, 0.01f, 0f);
                 water.transform.position += waterLevel;
             }
@@ -51,11 +52,11 @@ public class InteractScript_water : MonoBehaviour
             RaycastHit hit;
             if(Physics.Raycast(ray,out hit,interactDistance))
             {
-                if(hit.collider.gameObject.tag == "Switch_Lever")
+                if(hit.collider.gameObject.tag == "Switch_Lever_2")
                 {
                     if (rising == false) 
                     {
-                        Debug.Log("AAAAAAAAAAA");
+                        Debug.Log("BBBBBBBBBB");
                         // rotate lever
                         rising = true;
                     }
