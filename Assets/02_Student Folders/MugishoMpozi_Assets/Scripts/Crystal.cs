@@ -10,6 +10,8 @@ public class Crystal : MonoBehaviour
     public GameObject crystal;
     public GameObject crystalLight;
 
+    public GameObject finalGate;
+
     public GameObject entrance1Lock;
     public GameObject entrance2Lock;
     public int limit;
@@ -25,6 +27,7 @@ public class Crystal : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
+        finalGate = GameObject.Find("Final_Gate");
 
     }
 
@@ -52,6 +55,8 @@ public class Crystal : MonoBehaviour
             }
             if (entrance2Lock != null){
                 Destroy(entrance2Lock);
+            } else {
+                Destroy(finalGate);
             }
         } else {
             killCount = enemyGenerator.killedEnemies;
