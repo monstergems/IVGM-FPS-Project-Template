@@ -9,6 +9,7 @@ public class InteractScript_water : MonoBehaviour
 
     private float variableToChange;
     private float changePerSecond;
+    private bool rising = false;
 
     void Update()
     {
@@ -27,12 +28,42 @@ public class InteractScript_water : MonoBehaviour
             {
                 if(hit.collider.gameObject.tag == "Switch_Lever")
                 {
-                    Debug.Log("TESTESTESTEST");
-                    // Destroy(hit.collider.gameObject);
+                    if (rising == false) 
+                    {
+                        Debug.Log(Time.deltaTime);
+                        // rotate lever
+                        rising = true;
+                    }
                 }
             }
         }
         // Debug.Log(Time.deltaTime);
 
+        // if (rising == true )
+        // if (true)
+        // {
+        //     if (Time.deltaTime <= duration)
+        //     {// make the water rise for duration amount of time
+        //         water.GetComponent<Transform>().position = new Vector3(waterLevelx , waterLevely + (Time.deltaTime / duration) * totalWaterLevelIncrease, waterLevelz);
+                
+        //     }
+        // } 
+        // else if (Input.GetKeyDown(KeyCode.E))
+        // {
+        //     Ray ray = new Ray(transform.position,transform.forward);
+        //     RaycastHit hit;
+        //     if(Physics.Raycast(ray,out hit,interactDistance))
+        //     {
+        //         if(hit.collider.CompareTag("Switch_Lever"))
+        //         {
+        //             if(rising == false)
+        //             {
+        //                 rising  = true;
+        //                 // animate lever being pulled down
+        //                 // gradually increase the water height
+        //             }
+        //         }
+        //     }
+        // }
     }
 }
