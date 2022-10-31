@@ -1027,7 +1027,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1717271353}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -1651,12 +1651,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce3f29b10e3e15a49ac4c4fa978a18a1, type: 3}
---- !u!95 &55786288 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 1269661363}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &59761546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6648,7 +6642,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 595520166}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -8774,7 +8768,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1599806054}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -9088,7 +9082,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1386985013}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -10750,12 +10744,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1477119232930766846, guid: c261aaa68edd6994e98f3dd09d289b89,
     type: 3}
   m_PrefabInstance: {fileID: 502516816}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &502784093 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 628501648}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &510260123 stripped
 Transform:
@@ -12873,12 +12861,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 592259110}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &595520166 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 264918927}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &595949781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13088,7 +13070,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1491526223}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -13850,7 +13832,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 502784093}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -14551,7 +14533,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1679349378}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -18720,7 +18702,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1120836606}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -18849,7 +18831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb0e3f5eb4e53184f864cd96a80dccbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactDistance: 5
 --- !u!1001 &884956409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19161,12 +19142,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8570501285430546738, guid: 3e776a5d11f6ff7479236101fa9f7d31,
     type: 3}
   m_PrefabInstance: {fileID: 760660590}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &913537449 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 1930078834}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &914188877 stripped
 Transform:
@@ -20767,12 +20742,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1783212373}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &999015496 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 1216972100}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1002356060 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 821697842945565480, guid: ad723011623795149ab723c33c434c37,
@@ -22303,9 +22272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7a4c138fce8024dbfa669d0156fed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target_low: {fileID: 0}
-  target_high: {fileID: 0}
-  frac: 0
 --- !u!114 &1070928467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22318,9 +22284,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7a4c138fce8024dbfa669d0156fed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target_low: {fileID: 529610}
-  target_high: {fileID: 1470856594}
-  frac: 1
 --- !u!1001 &1070952436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23665,12 +23628,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf7a7fc00791eb945a5412768a68fffc, type: 3}
---- !u!95 &1120836606 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 868548569}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1121649831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8486072156080864619, guid: c8f06426297d70b49a679bc058775930,
@@ -25186,7 +25143,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 999015496}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -26619,7 +26576,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 55786288}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -26720,7 +26677,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1958003494}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -28729,7 +28686,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1846819421}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -29277,12 +29234,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 936655011711060175, guid: 5e10be2f5a748844dbd0b2b7e6fafd4a,
     type: 3}
   m_PrefabInstance: {fileID: 1385647676}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1386985013 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 377890243}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1388841606
 PrefabInstance:
@@ -31044,12 +30995,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0045514812006b443a798ad45a675703, type: 3}
---- !u!95 &1491526223 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 600266589}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1493868946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9149294904089943734, guid: a62753c87b044214ebd45797277f54ad,
@@ -33423,12 +33368,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 253729922}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1599806054 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 372151444}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1600017482 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8669240701490022791, guid: 797162f1e2611d14bac618083727de40,
@@ -35435,12 +35374,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc02f77b0506f764c9d22c61c681c4af, type: 3}
---- !u!95 &1679349378 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 668971184}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1679431485 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6880993203749844810, guid: a08fc365a6eb3a4479ec69b573a6c7ad,
@@ -36217,12 +36150,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!95 &1717271353 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 33590207}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1718839856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39355,12 +39282,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1846284727}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1846819421 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 1366889772}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1847908600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41228,7 +41149,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 913537449}
+      objectReference: {fileID: 0}
     - target: {fileID: 5740304689198251243, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
         type: 3}
       propertyPath: attackStopDistanceRatio
@@ -41874,12 +41795,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7573078095767149033, guid: 7f1b2231b6e37ff41af5a0d117ba6675,
     type: 3}
   m_PrefabInstance: {fileID: 1388841606}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1958003494 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2981857335200410632, guid: 9c360d81440ef4a4aae4b3ed5e768d11,
-    type: 3}
-  m_PrefabInstance: {fileID: 1272719704}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1959587095
 PrefabInstance:
