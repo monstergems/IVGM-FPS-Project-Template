@@ -213,7 +213,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  onDetectSFX: {fileID: 8300000, guid: 25722734eeccba042a18e26e376ca542, type: 3}
+  onDetectSFX: {fileID: 8300000, guid: a8da09c2aa9c1b543aa8eb3a7124bcbf, type: 3}
   MovementSound: {fileID: 0}
   PitchDistortionMovementSpeed:
     min: 1
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e27364eefd6dd0341ba72a3bfc0d9727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 2600
+  maxHealth: 800
   criticalHealthRatio: 0.3
 --- !u!114 &4488149413969227583
 MonoBehaviour:
