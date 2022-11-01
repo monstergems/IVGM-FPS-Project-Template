@@ -2564,7 +2564,7 @@ MonoBehaviour:
   finalGate: {fileID: 0}
   entrance1Lock: {fileID: 964813084}
   entrance2Lock: {fileID: 1402189694}
-  limit: 3
+  limit: 10
   killCount: 0
   limitReached: 0
 --- !u!114 &600665804
@@ -2645,7 +2645,7 @@ MonoBehaviour:
   finalGate: {fileID: 1124449851}
   entrance1Lock: {fileID: 2051334150}
   entrance2Lock: {fileID: 1117539538}
-  limit: 3
+  limit: 15
   killCount: 0
   limitReached: 0
 --- !u!114 &603012271
@@ -2671,7 +2671,7 @@ MonoBehaviour:
   height: 5
   maxNumEnemies: 25
   killedEnemies: 0
-  spawnIntervalShort: 3
+  spawnIntervalShort: 2.5
   spawnedEnemies: []
 --- !u!1001 &609655606
 PrefabInstance:
@@ -5931,7 +5931,7 @@ MonoBehaviour:
   finalGate: {fileID: 1124449851}
   entrance1Lock: {fileID: 1495904262}
   entrance2Lock: {fileID: 1117539538}
-  limit: 3
+  limit: 25
   killCount: 0
   limitReached: 0
 --- !u!114 &1440763639
@@ -5955,9 +5955,9 @@ MonoBehaviour:
   minZ: 39
   maxZ: 62
   height: -10
-  maxNumEnemies: 25
+  maxNumEnemies: 30
   killedEnemies: 0
-  spawnIntervalShort: 3
+  spawnIntervalShort: 1.5
   spawnedEnemies: []
 --- !u!4 &1468765862 stripped
 Transform:
@@ -7160,7 +7160,7 @@ PrefabInstance:
     - target: {fileID: 1360575517897679518, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: maxHealth
-      value: 100000
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 6145509692674227223, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
