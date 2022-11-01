@@ -27,7 +27,6 @@ public class Crystal : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        finalGate = GameObject.Find("Final_Gate");
 
     }
 
@@ -38,7 +37,7 @@ public class Crystal : MonoBehaviour
         // change something about the crystal
         playerPos = player.transform.position;
 
-        if (killCount == limit) {
+        if (killCount == limit && limitReached == false) {
             // change crystal properties
 
             // Get the Renderer component from the new cube  
@@ -50,14 +49,16 @@ public class Crystal : MonoBehaviour
             limitReached = true;
 
             // open all entries
-            if (entrance1Lock != null) {
-                Destroy(entrance1Lock);
-            }
-            if (entrance2Lock != null){
-                Destroy(entrance2Lock);
-            } else {
+            
+            if (entrance2Lock == null){
                 Destroy(finalGate);
             }
+            if (entrance1Lock != null) {
+                Destroy(entrance1Lock);
+            } 
+            if (entrance2Lock != null){
+                Destroy(entrance2Lock);
+            } 
         } else {
             killCount = enemyGenerator.killedEnemies;
             crystalLight.GetComponent<Light>().intensity = 2 * killCount;
