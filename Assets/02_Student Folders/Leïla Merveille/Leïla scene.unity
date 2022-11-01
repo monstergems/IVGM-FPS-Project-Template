@@ -875,7 +875,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40551830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.76, y: -11.81, z: 55.96}
+  m_LocalPosition: {x: 13.66, y: -9.36, z: 11.45}
   m_LocalScale: {x: 16.464664, y: 0.18574, z: 40.77808}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -902,7 +902,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40551830}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -914,7 +914,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40551830}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8953,12 +8953,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 65fac7cc44cc1cc4092bad889ea7cb6d,
     type: 3}
   m_PrefabInstance: {fileID: 537028197}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &795316122 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7253983127304857660, guid: 761cdc9e4e883334cbdcea062d0befa7,
-    type: 3}
-  m_PrefabInstance: {fileID: 2103344693}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &800297977
 GameObject:
@@ -24118,6 +24112,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee32e1ff273144841884b9cc17ec96fd, type: 3}
+--- !u!1 &1905519041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7442781921941657531, guid: 761cdc9e4e883334cbdcea062d0befa7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2103344693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1905519046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905519041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de12dc07aabd5be4db338f6193ea2df9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  water: {fileID: 530761684}
+  lever: {fileID: 2101737029}
+  rising: 0
+  interactDistance: 5
+  riseUntil: -3.5
 --- !u!1001 &1907196578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24354,22 +24371,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2103344693}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1913370638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795316122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de12dc07aabd5be4db338f6193ea2df9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  water: {fileID: 530761684}
-  lever: {fileID: 2101737029}
-  interactDistance: 5
-  riseUntil: -3.5
 --- !u!1001 &1915427340
 PrefabInstance:
   m_ObjectHideFlags: 0

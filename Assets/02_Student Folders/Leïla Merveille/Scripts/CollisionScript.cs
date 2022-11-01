@@ -5,9 +5,11 @@ using UnityEngine;
 public class CollisionScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter(Collider collidingObject)
     {
-        
+        if (collidingObject.gameObject.tag == "Player") {
+            collidingObject.gameObject.GetComponent<Health>().Kill();
+        }
     }
 
     // Update is called once per frame

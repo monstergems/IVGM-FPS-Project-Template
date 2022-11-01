@@ -749,7 +749,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   water: {fileID: 0}
+  lever: {fileID: 0}
+  rising: 0
   interactDistance: 5
+  riseUntil: 0
 --- !u!1 &7383874627095517793
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,6 +796,7 @@ GameObject:
   - component: {fileID: 8303093099919959869}
   - component: {fileID: 306504594}
   - component: {fileID: 84220919886303423}
+  - component: {fileID: 3289338874117033497}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -881,7 +885,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   water: {fileID: 0}
+  lever: {fileID: 0}
+  rising: 0
   interactDistance: 5
+  riseUntil: 0
+--- !u!114 &3289338874117033497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7442781921941657531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5828a5b28c06bc54aa360f31849d50a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactScript_water: {fileID: 0}
+  water: {fileID: 0}
+  lever: {fileID: 0}
+  rising: 0
+  interactDistance: 5
+  riseUntil: 0
 --- !u!1001 &7263037753131886630
 PrefabInstance:
   m_ObjectHideFlags: 0

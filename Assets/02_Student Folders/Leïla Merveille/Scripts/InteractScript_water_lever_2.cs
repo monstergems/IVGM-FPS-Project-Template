@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractScript_water : MonoBehaviour
+public class InteractScript_water_lever_2 : MonoBehaviour
 {
     public GameObject water;
     public GameObject lever;
@@ -17,7 +17,7 @@ public class InteractScript_water : MonoBehaviour
     private float changePerSecond;
     
     //lever
-    private float leverOpenAngle=-220f;
+    private float leverOpenAngle=50f;
     private float smooth=4f;
 
     void Update()
@@ -42,7 +42,7 @@ public class InteractScript_water : MonoBehaviour
                 water.transform.position += waterLevel;
             }
             // rotate lever
-            Quaternion targetRotation = Quaternion.Euler(leverOpenAngle, 0, 0);
+            Quaternion targetRotation = Quaternion.Euler(leverOpenAngle, 90, 0);
             lever.transform.localRotation=Quaternion.Slerp(lever.transform.localRotation,targetRotation,smooth*Time.deltaTime);
         } 
         else if(Input.GetKeyDown(KeyCode.E))
@@ -51,7 +51,7 @@ public class InteractScript_water : MonoBehaviour
             RaycastHit hit;
             if(Physics.Raycast(ray,out hit,interactDistance))
             {
-                if(hit.collider.gameObject.tag == "Switch_Lever")
+                if(hit.collider.gameObject.tag == "Switch_Lever_2")
                 {
                     if (rising == false) 
                     {
@@ -63,4 +63,5 @@ public class InteractScript_water : MonoBehaviour
             }
         }
     }
+
 }
