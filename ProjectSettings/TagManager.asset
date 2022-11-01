@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Switch_Lever
+  - Switch_Lever_2
   layers:
   - Default
   - TransparentFX
